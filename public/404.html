@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Redirect to the main page with the path as a hash
+      var path = window.location.pathname.replace(/^\/kumar/, "");
+      window.location.replace("/kumar/?redirect=" + encodeURIComponent(path));
+    </script>
+  </head>
+  <body></body>
+</html>
